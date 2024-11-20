@@ -1,71 +1,89 @@
-<meta name='viewport' content='width=device-width, initial-scale=1'/><style>/* General styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #111111; /* কালো ব্যাকগ্রাউন্ড */
-    color: #ffffff; /* সাদা টেক্সট */
+    background-color: #ffffff; /* সাদা ব্যাকগ্রাউন্ড */
+    color: #000000; /* কালো টেক্সট */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333333;
+    background-color: #ff66cc; /* গোলাপি ব্যাকগ্রাউন্ড */
     text-align: center;
     padding: 20px;
 }
 
 header h1 {
-    color: #ff66cc; /* গোলাপি রঙ */
+    color: #ffffff; /* হেডার টাইটেলের সাদা রঙ */
 }
 
 nav {
-    background-color: #444444;
+    background-color: #66ccff; /* আকাশী ব্যাকগ্রাউন্ড */
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #ffffff;
+    color: #ffffff; /* নেভিগেশনের লিঙ্ক সাদা */
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff66cc; /* হোভার করলে গোলাপি রঙ */
 }
 
 section {
     padding: 20px;
-    background-color: #222222;
+    background-color: #e0f7fa; /* হালকা আকাশী ব্যাকগ্রাউন্ড */
+    color: #333333; /* ডার্ক গ্রে টেক্সট */
+}
+
+section h2 {
+    color: #66cc33; /* সবুজ শিরোনাম */
 }
 
 footer {
-    background-color: #333333;
+    background-color: #333333; /* ডার্ক গ্রে ব্যাকগ্রাউন্ড */
     text-align: center;
     padding: 10px;
+    color: #ffffff; /* ফুটার টেক্সট সাদা */
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
-/* Specific styles */
+/* Highlight and accent styles */
 .highlight {
-    color: #00ff99; /* সবুজ রঙ */
+    color: #ff66cc; /* গোলাপি রঙ */
 }
 
 .accent {
-    color: #66ccff; /* নীল/আকাশী রঙ */
+    color: #0000ff; /* নীল রঙ */
 }
 
+/* Form styles */
 form {
-    color: #ffffff;
+    color: #000000; /* কালো ফর্ম টেক্সট */
 }
 
 form input, form textarea {
     padding: 10px;
     margin: 5px;
-    background-color: #444444;
-    border: none;
-    color: #ffffff;
+    background-color: #f0f0f0; /* হালকা ধূসর ব্যাকগ্রাউন্ড */
+    border: 1px solid #cccccc; /* হালকা ধূসর বর্ডার */
+    color: #000000; /* কালো টেক্সট */
     width: 100%;
 }
 
 form input[type="submit"] {
-    background-color: #ff66cc;
+    background-color: #66cc33; /* সবুজ বাটন */
+    color: #ffffff; /* বাটনের সাদা টেক্সট */
     cursor: pointer;
-}</style>
+    border: none;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff66cc; /* হোভার করলে গোলাপি */
+}
